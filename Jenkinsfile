@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git 'your_repository_url'
+                git 'https://github.com/Pratik-Pardeshi/HelloWorld.git'
             }
         }
 
